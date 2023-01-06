@@ -1,0 +1,399 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  margin: 0 5%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 1px solid #fff;
+}
+
+button.btn-accent {
+  background: #d3b288;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 144px;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+button.btn-white {
+  background: white;
+  color: #d3b288;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 144px;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+header {
+  margin-top: 20px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .header-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .header-location button.btn-accent {
+  margin-left: 30px;
+}
+header nav .header-location .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+header nav .header-location .address img {
+  width: 20px;
+  height: 20px;
+}
+header nav .header-location .address div.location {
+  cursor: pointer;
+  padding-bottom: 3px;
+  border-bottom: 2px dashed #d3b288;
+}
+header nav .header-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 90px;
+}
+header nav .header-links > div {
+  margin-left: 30px;
+  font-size: 14px;
+}
+header nav .header-links > div a {
+  color: black;
+  text-decoration: none;
+}
+
+section h1.title {
+  color: #d3b288;
+  font-size: 36px;
+}
+
+main section.about-we {
+  margin: 250px 0;
+}
+main section.about-we .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+main section.about-we .container p.description {
+  width: 526px;
+  margin-top: 40px;
+}
+main section.consultant {
+  margin-bottom: 150px;
+}
+main section.consultant p.description {
+  width: 306px;
+  margin-top: 30px;
+}
+main section.consultant .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main section.consultant .container .faq {
+  margin-left: 24px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 53px;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+main section.consultant .container .faq > div {
+  text-align: center;
+}
+main section.consultant .container .faq > div .text {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+}
+main section.process-health {
+  background: rgba(211, 178, 136, 0.1);
+  padding: 120px 0;
+}
+main section.process-health .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main section.process-health h1.title {
+  color: black;
+}
+main section.process-health p.description {
+  width: 416px;
+  margin-top: 25px;
+}
+main section.process-health .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main section.process-health .steps > div {
+  height: 200px;
+  background: #d3b288;
+  border-radius: 5px;
+  padding: 40px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 24px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  outline: 3px solid #fff; /* Пунктирная рамка */
+  outline-offset: -10px; /* Выводим рамку внутри элемента */
+}
+main section.results {
+  margin: 150px 0;
+}
+main section.results .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main section.results .buttons div:first-child {
+  margin-right: 15px;
+}
+main section.results .buttons > div {
+  cursor: pointer;
+}
+main section.results .slider {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main section.results .slider > div {
+  position: relative;
+}
+main section.results .slider > div::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  left: 205px;
+  height: 98.5%;
+  background: white;
+}
+main section.results .slider > div .description {
+  margin-top: 10px;
+}
+main section.results .slider > div::after {
+  content: "";
+  position: absolute;
+  background: url(./images/icon-before-after.svg);
+  width: 30px;
+  height: 30px;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 191px;
+}
+main section.preview {
+  margin-top: 20px;
+  background: url(./images/background-section-preview.svg);
+  background-size: cover;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+main section.preview .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main section.preview .container .full-height {
+  height: 100%;
+}
+main section.preview .container .full-height .info {
+  height: 100%;
+  background: white;
+  padding: 20px;
+  margin-left: 160px;
+  outline: 3px solid #d3b288; /* Пунктирная рамка */
+  outline-offset: -20px; /* Выводим рамку внутри элемента */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main section.preview .container .full-height .info h1 {
+  font-size: 36px;
+}
+main section.preview .container .full-height .info p.description {
+  margin-top: 25px;
+  width: 381px;
+}
+main section.preview .container .full-height .info button.btn-accent {
+  margin-top: 30px;
+  width: 236px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+footer .copyright .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+  color: #333333;
+  opacity: 0.5;
+}
+footer .contacts {
+  background: #d3b288;
+  color: white;
+  padding: 40px 0;
+}
+footer .contacts .main-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+footer .contacts .main-contacts .phones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 381px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .contacts .main-contacts .address {
+  border-bottom: 2px dashed #fff;
+}
+footer .contacts hr {
+  margin: 30px 0;
+}
+footer .contacts .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .contacts .links .time-work {
+  border: 3px solid #fff;
+  padding: 42px 40px;
+}
+footer .contacts .links .time-work li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+}
+footer .contacts .links > div .title {
+  font-weight: 500;
+  font-size: 18px;
+}
+footer .contacts .links > div ul {
+  margin-left: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+footer .contacts .links > div ul li {
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+  text-align: start;
+  display: block;
+}
+footer .contacts .links > div ul li a {
+  color: white;
+  text-decoration: none;
+}
